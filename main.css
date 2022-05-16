@@ -43,7 +43,7 @@ li a {
 /*  rectangle */
 
 .image-un {
-  background-image: url('/img/foto_1.jpeg');
+  background-image: url('../proget_immo/img/foto_1.jpeg');
   background-position: relative;
   background-size: cover;
   width: 100%;
