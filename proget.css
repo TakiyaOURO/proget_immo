@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 
@@ -54,8 +55,6 @@ li a {
   width: 50%;
   height: 655px;
   background-color: rgba(196, 196, 196, 0.72);
-
-
 }
 
 .square h3 {
@@ -68,7 +67,7 @@ li a {
   font-size: 1.3em;
 }
 
-.vente_un h2{
+.vente_un h2 {
   text-align: center;
   padding-top: 20px;
 }
@@ -81,20 +80,26 @@ li a {
   text-align: center;
   color: white
 }
+.vente img{
+  padding-top: 25px;
+}
+
 .vente p {
   text-align: center;
-  padding-top: 25%;
+  padding-top: 15%;
 }
-.vent1{
+
+.vent1 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
 }
+
 .vente_un {
   background-color: #EEEBEB;
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
 }
 
 .terrains {
@@ -106,7 +111,10 @@ li a {
 }
 
 .terrains p {
-  padding-top: 25%;
+  padding-top: 40px;
+}
+.terrains img{
+  padding-top: 20px;
 }
 
 .location {
@@ -119,109 +127,303 @@ li a {
 }
 
 .location p {
-  padding-top: 25%;
+  padding-top: 40px;
+}
+.location img{
+  padding-top: 20px;
 }
 
 
 
-.image{
+.image {
   display: flex;
   justify-content: space-evenly;
 }
-.image1{
+
+.image1 {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
 }
-.proget{
+
+.proget {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.proget p{
-display: flex;
-justify-content: center;
-}
-.proget h2{
+
+.proget p {
   display: flex;
   justify-content: center;
-  }
+}
 
-.text{
+.proget h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
   width: 240px;
   height: 140px;
   border-radius: 10%;
   background-color: black;
-  margin-left:  155px;
+  margin-left: 155px;
   padding-bottom: 40px;
   color: white;
 }
 
-.temoignage{
+.temoignage {
   display: flex;
   position: relative;
 }
 
 
-.temoin{
+.temoin {
   text-align: center;
   position: absolute;
   margin-left: 500px;
   margin-top: 15px;
 }
-.text p{
+
+.text p {
   padding: 40px;
   padding-bottom: 15px;
 }
-.text h3{
+
+.text h3 {
   padding-left: 60px;
   padding-top: 20px;
 }
-.profil{
+
+.profil {
   display: flex;
   padding-top: 80px;
   margin-left: 160px;
   margin-bottom: 10px;
 }
 
-.profil h3{
-padding-top: 15px;
-margin-left: 15px;
+.profil h3 {
+  padding-top: 15px;
+  margin-left: 15px;
 }
-.formulaire{
+
+.formulaire {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
-.cercle_un{
-  width: 30%;
-  height: 400px;
+
+.cercle_un {
+  width: 40%;
+  height: 470px;
   background-color: #EEEBEB;
-  
+
 }
-.contacter_un{
-  width: 70%;
-  height: 400px;
+
+.contacter_un {
+  width: 60%;
+  height: 470px;
   background-color: #E5902C
 }
-.contacter{
+
+.contacter {
   text-align: center;
+  padding-top: 20px;
 }
-.img{
- 
+
+.img {
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
   background-color: #AD7B4E;
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
+
 .cercle {
   display: flex;
-  margin: 15% 10% 10% 10%; 
+  margin: 15% 10% 10% 10%;
+  padding-left: 90px;
 }
-.nom_prenom{
+
+.nom_prenom {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+
+.contenaire {
+  padding-left: 21%;
+}
+
+input[type="text1"] {
+  height: 30px;
+  border-radius: 5px;
+}
+
+input[type="text2"] {
+  height: 30px;
+  border-radius: 5px;
+}
+
+input[type="email"] {
+  width: 72.5%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 72.5%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+textarea[id="msg"] {
+  width: 72.5%;
+  height: 60px;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 25%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.mail {
+  padding-top: 20px;
+}
+
+.poste {
+  padding-top: 20px;
+}
+
+.message {
+  padding-top: 20px;
+}
+
+.button {
+  padding-top: 20px;
+}
+
+.manp {
+  padding-top: 30px;
+  text-align: center;
+}
+.sociaux {
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+.logo_2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+.facebook {
   display: flex;
 }
 
+.facebook p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
 
+}
 
+.twitter {
+  display: flex;
+}
 
+.twitter p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.instagram {
+  display: flex;
+}
+
+.instagram p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.linkdin {
+  display: flex;
+}
+
+.linkdin p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.youtube {
+  display: flex;
+}
+
+.youtube p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.un {
+  width: 20%;
+  height: 80%;
+}
+
+.deux {
+  width: 20%;
+  height: 80%;
+}
+
+.trois {
+  width: 20%;
+  height: 80%;
+}
+
+.les_partenaires{
+  width: 100%;
+  height: 100%;
+ background-color: #C4C4C4;
+}
+.partenaire {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.logo_partenaire{
+ padding-top: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.paragraphe{
+  width: 100%;
+  height: 40px;
+  padding-top: 25px;
+  background-color: black;
+  color: grey;
+  display: flex;
+  justify-content: space-evenly;
+}
 
