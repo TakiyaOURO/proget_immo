@@ -4,6 +4,10 @@
   border: 0;
 }
 
+body{
+  width: 100%;
+  height: 100vh;
+}
 
 nav {
   display: flex;
@@ -44,10 +48,9 @@ li a {
 
 .image-un {
   background-image: url('../proget_immo/img/foto_1.jpeg');
-  background-position: relative;
   background-size: cover;
   width: 100%;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .square {
@@ -71,14 +74,16 @@ li a {
   padding-top: 20px;
 }
 
-.vente {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: rgb(22, 22, 22);
-  text-align: center;
-  color: white
-}
+  .vente {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    color: white
+  }
+
+  
 .vente img{
   padding-top: 25px;
 }
@@ -90,15 +95,31 @@ li a {
 
 .vent1 {
   display: flex;
-  justify-content: space-evenly;
   margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+
 
 .vente_un {
   background-color: #EEEBEB;
   padding-top: 20px;
   padding-bottom: 20px;
 
+
+}
+
+.vente {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(22, 22, 22);
+  background-position: center;
+  text-align: center;
+  color: white
+  
 }
 
 .terrains {
@@ -107,6 +128,8 @@ li a {
   border-radius: 100px;
   background-color: aqua;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .terrains p {
@@ -426,3 +449,6 @@ button[type="submit"] {
   justify-content: space-evenly;
 }
 
+@media (max-width: 1024px) {
+  
+}
