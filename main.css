@@ -125,7 +125,7 @@ li a {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  background-color: aqua;
+ background-color: white;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -270,8 +270,11 @@ li a {
 
 .nom_prenom {
   display: flex;
-  justify-content: space-evenly;
+  margin-left: 170px;
   padding-top: 20px;
+}
+.nom {
+  margin-left: 125px;
 }
 
 
@@ -343,62 +346,68 @@ button[type="submit"] {
   display: flex;
   justify-content: space-evenly;
   padding-top: 25px;
+  
 }
+  
 
 .facebook {
   display: flex;
 }
 
-.facebook p {
+.facebook a {
   margin-top: 15px;
   margin-left: 10px;
   font-weight: 700;
   font-size: 16px;
-
+  text-decoration: none;
 }
 
 .twitter {
   display: flex;
 }
 
-.twitter p {
+.twitter a {
   margin-top: 15px;
   margin-left: 10px;
   font-weight: 700;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .instagram {
   display: flex;
 }
 
-.instagram p {
+.instagram a {
   margin-top: 15px;
   margin-left: 10px;
   font-weight: 700;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .linkdin {
   display: flex;
 }
 
-.linkdin p {
+.linkdin a {
   margin-top: 15px;
   margin-left: 10px;
   font-weight: 700;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .youtube {
   display: flex;
 }
 
-.youtube p {
+.youtube a {
   margin-top: 15px;
   margin-left: 10px;
   font-weight: 700;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .footer {
