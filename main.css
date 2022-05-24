@@ -463,9 +463,6 @@ button[type="submit"] {
   justify-content: space-evenly;
 }
 
-.localisation{
-  width: 800px;
-}
 
 @media all and (max-width: 1024px){
   nav{
@@ -484,4 +481,24 @@ button[type="submit"] {
   .temoin{
     margin-left: 150px;
   }
+}
+
+
+@media screen and (max-width: 425px){
+  .localisation{
+    width: 400px;
+  }
+
+  .cercle_un, .img-commun, .nom{
+    display: none;
+  }
+
+  .prenom{
+    position: relative;
+    right: 117px;
+  }
+
+  .logo_2 {
+    flex-wrap: wrap;
+}
 }
