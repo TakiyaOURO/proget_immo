@@ -12,6 +12,7 @@ body{
 nav {
   display: flex;
   justify-content: space-between;
+  
 }
 
 ul {
@@ -26,12 +27,20 @@ ul {
 li a {
   text-decoration: none;
   margin-right: 31px;
+  color: white;
+  font-size: 20px;
+}
+a:hover{
+  color: #ff0000;
 }
 
 .navigation {
   display: flex;
   margin: 0 51px;
   justify-content: space-between;
+  height: 60px;
+  padding-top: 25px;
+  color: white;
 }
 
 .logo {
@@ -41,32 +50,28 @@ li a {
 /* class immo */
 
 .immo {
-  padding-top: 10px;
+  padding-top: 20px;
+  font-size: 25px;
 }
 
 /*  rectangle */
 
 .image-un {
-  background-image: url('img/foto_1.jpeg');
+  background-image: url('img/foto_1.jpg');
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  height: 700px
 }
-
-.square {
-  width: 50%;
-  height: 655px;
-  background-color: rgba(196, 196, 196, 0.72);
+.square{
+  text-align: center;
+  padding-top: 200px;
+  color: white
 }
-
-.square h3 {
-  padding-top: 40%;
-  font-size: 2em;
+.square h3{
+  font-size: 4em;
 }
-
-.square p {
-  padding-top: 7%;
-  font-size: 1.3em;
+.square p{
+  font-size: 2.5em;
+  padding-top: 30px;
 }
 
 .vente_un h2 {
@@ -256,7 +261,7 @@ li a {
   text-align: center;
   padding-top: 20px;
   box-sizing: border-box;
-  background-color: #AD7B4E;
+  background-color: white;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -435,7 +440,7 @@ button[type="submit"] {
 .les_partenaires{
   width: 100%;
   height: 100%;
- background-color: #C4C4C4;
+ 
 }
 .partenaire {
   text-align: center;
@@ -457,6 +462,11 @@ button[type="submit"] {
   display: flex;
   justify-content: space-evenly;
 }
+
+.localisation{
+  width: 800px;
+}
+
 @media all and (max-width: 1024px){
   nav{
     width: auto;
